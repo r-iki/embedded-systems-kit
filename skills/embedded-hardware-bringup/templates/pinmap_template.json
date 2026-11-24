@@ -1,0 +1,42 @@
+{
+  "mcu": "esp32",
+  "logic_voltage": 3.3,
+  "features": ["wifi"],
+  "pins": [
+    {
+      "pin": "GPIO21",
+      "signal": "I2C_SDA",
+      "function": "i2c",
+      "direction": "inout",
+      "external_voltage": 3.3,
+      "pull": "external_up",
+      "notes": "4.7k pull-up to 3V3"
+    },
+    {
+      "pin": "GPIO22",
+      "signal": "I2C_SCL",
+      "function": "i2c",
+      "direction": "inout",
+      "external_voltage": 3.3,
+      "pull": "external_up",
+      "notes": "4.7k pull-up to 3V3"
+    },
+    {
+      "pin": "GPIO34",
+      "signal": "VBAT_SENSE",
+      "function": "adc",
+      "direction": "input",
+      "external_voltage": 3.0,
+      "pull": "none",
+      "notes": "ADC1_CH6, resistor divider with 100nF filter cap"
+    },
+    {
+      "pin": "GPIO18",
+      "signal": "STATUS_LED",
+      "function": "gpio",
+      "direction": "output",
+      "external_voltage": 3.3,
+      "pull": "none"
+    }
+  ]
+}

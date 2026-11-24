@@ -1,0 +1,24 @@
+name: Validate Plugin & Skills
+
+on:
+  push:
+    branches: [main, master]
+  pull_request:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Verify gcc is available for C template syntax checks
+        run: gcc --version
+
+      - name: Run plugin validation and script unit tests
+        run: python tests/validate_plugin.py

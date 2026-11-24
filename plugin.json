@@ -1,0 +1,12 @@
+{
+  "name": "embedded-systems-kit",
+  "displayName": "Embedded Systems Kit",
+  "version": "1.0.0",
+  "description": "Multi-platform C/C++ embedded systems toolkit for AI agents: peripheral drivers, build/flash/CI automation, crash debugging, RTOS & low-power design, and hardware bring-up.",
+  "logo": "assets/logo.svg",
+  "suggestedPrompts": [
+    "Detect my embedded project toolchain, build the firmware, and break down Flash and RAM usage",
+    "Review my peripheral driver and ISR code for timing, atomicity, and memory safety bugs",
+    "Help me decode a crash backtrace or validate my MCU pinout before board bring-up"
+  ]
+}
