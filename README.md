@@ -56,7 +56,7 @@ Copy into `.agents/plugins/embedded-systems-kit` at the root of your firmware re
 Install directly from GitHub with the open Agent Skills CLI:
 
 ```bash
-npx skills add <YOUR_GITHUB_USER>/embedded-systems-kit
+npx skills add r-iki/embedded-systems-kit
 ```
 
 Or copy the subdirectories inside `skills/` directly into your tool's skills folder (e.g., `.agents/skills/`, `.claude/skills/`, or `.cursor/skills/`), and optionally copy `rules/AGENTS.md` into your project's `AGENTS.md` / `CLAUDE.md`.

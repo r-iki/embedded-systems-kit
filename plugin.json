@@ -3,6 +3,12 @@
   "displayName": "Embedded Systems Kit",
   "version": "1.0.0",
   "description": "Multi-platform C/C++ embedded systems toolkit for AI agents: peripheral drivers, build/flash/CI automation, crash debugging, RTOS & low-power design, and hardware bring-up.",
+  "author": {
+    "name": "r-iki",
+    "url": "https://github.com/r-iki"
+  },
+  "homepage": "https://github.com/r-iki/embedded-systems-kit",
+  "repository": "https://github.com/r-iki/embedded-systems-kit",
   "logo": "assets/logo.svg",
   "suggestedPrompts": [
     "Detect my embedded project toolchain, build the firmware, and break down Flash and RAM usage",
